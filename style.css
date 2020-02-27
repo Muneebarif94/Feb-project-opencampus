@@ -1,0 +1,257 @@
+
+body {
+  background-color: pink;
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+  
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(fonts/Poppins-Regular.otf);
+}
+@font-face {
+    font-family: poppins-Semibold;
+    src: url(./fonts/Poppins-SemiBold.otf);
+}
+.mynavbar {
+    background: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+         }
+.mr-10-space {
+    margin-right:  20px;
+}
+.mr-t{
+    margin-top: 30px;
+}
+.mr-tt{
+    margin-top: 330px;
+}
+p {
+    color: #777777;
+    font-family: poppins-regular;
+    font-size: 9pt;
+  }
+h1 {
+    color: black;
+    font-family: poppins-Semibold;
+  } 
+.h22 {
+    color: black;
+    font-family: poppins-regular;
+  } 
+.h33 {
+    color: black;
+    font-family: poppins-Semibold;
+}
+.logo {
+
+    background-image: url('./Images/logo.png');
+    width: 200px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+.text-center{
+    text-align: center;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding:   10px;
+    margin: 4px 2px;
+}
+
+.btn-seperate {
+
+    display: inline-block;
+    margin: 15px 15px;
+}
+
+#backg {
+    background-image: url('./Images/opacity.jpg');
+    background-color: #4CAF50;
+    align-self: center;
+
+    max-width: 1920px;
+    max-height: 600px;
+}
+#blue-back {
+    background-image: url('./Images/Rectangle.jpg');
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    opacity: 0.65;
+    z-index: -9;
+}
+#banner-image {
+    background-image: url('./Images/Group.jpg');
+    background-repeat: no-repeat; 
+    width: 800px;
+    height: 600px;
+    align-self: center;
+    margin-left: 25%; 
+    z-index: -9;
+}
+
+.button1 {
+ 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.btn-hover {
+    background-color: aqua;
+}
+/* Aboutus page */ 
+
+.aboutus-main{
+    width: 100%;
+    
+}
+.aboutus-70 {
+    width: 70%;
+    margin: 0 auto;
+
+}
+.aboutus-49 {
+    width: 49%;
+    display: inline-block;
+}
+
+.About-US-picture {
+    background-image: url('./Images/Group\ 2556.jpg');
+    width: 500px;
+    height: 400px;
+    padding: 35px;
+}
+.aboutus-text-flex {
+    margin-left: 85px;
+    width: 400px;
+    text-align: justify; 
+}
+.About-US-button {
+    margin-left: 70px;
+}
+
+.aboutus-text1-flex {
+    width: 400px;
+    padding: 35px;
+    margin-left: 100px;
+    text-align: justify; 
+}
+.About-US-picture2{
+    background-image: url('./Images/Layer_-1.jpg');
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+}
+/* our-speciality-text */
+
+
+.aboutus-main-20 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+/* Three Boxes */ 
+/* Box 1 */
+.Three-box-main {
+    width:100%;
+}
+.box-picture-1 {
+    background-image: url('./Images/pp1.jpg');
+    width: 10px;
+    height: 10px;
+    padding: 200px;
+
+}
+/* Box 2 */
+.Three-box-70 {
+    width:70%;
+    margin: 0 auto;
+}
+/* Box 2 */
+.Three-box-33 {
+    width:33%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-input 
+{
+          border-radius: 10px;
+          height: 30px;
+
+          padding-right: 50px;
+}
+
+.input-group 
+{
+    display: inline;
+          position: relative;
+    }
+
+.button-bg-sr 
+{
+
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/980px-Magnifying_glass_icon.svg.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            right: 0;
+            top: 0;
+            width: 20px;
+            bottom: 0;
+            border: none;
+            height: 20px; }
