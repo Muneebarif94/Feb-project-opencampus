@@ -1,12 +1,14 @@
-
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { 
 body {
-  background-color: pink;
+    background-color: #B2D6FF; /* Blue */
 }
-@media screen and (min-width: 480px) {
-    body {
-      background-color: lightgreen;
-    }
-  }
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
 
   
 
@@ -171,14 +173,41 @@ h1 {
 
 /* Three Boxes */ 
 /* Box 1 */
-.Three-box-main {
-    width:100%;
+.Three-box-70 {
+    width:70%;
+    margin: 0 auto;}
+.Three-box-33 {
+    width:33%;
+    display: inline-block;
+} 
+
+.card-deck {
+        background-color: white;
+        width: 325px;
+    
+    }
+.Three-boxes-text {
+    text-align: auto;
 }
-.box-picture-1 {
+.text-centered {
+    text-align: center;
+    align-content: center;
+}
+.heading-text-center {
+    margin-left: 45px
+}
+.heading-text-center2 {
+    margin-left: 10px;
+}
+.picture1 {
     background-image: url('./Images/pp1.jpg');
-    width: 10px;
-    height: 10px;
-    padding: 200px;
+    width: auto;
+    height: auto;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 100px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
 
 }
 /* Box 2 */
@@ -186,20 +215,194 @@ h1 {
     width:70%;
     margin: 0 auto;
 }
-/* Box 2 */
+.picture2 {
+    background-image: url('./Images/pp2.jpg');
+    width: auto;
+    height: auto;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 100px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+
+}
+/* Box 3 */
 .Three-box-33 {
     width:33%;
     margin: 0 auto;
     display: inline-block;
 }
+.picture3 {
+    background-image: url('./Images/pp3.jpg');
+    width: auto;
+    height: auto;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 100px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+}
+
+.flex-for-arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding:   10px;
+    margin: 4px 2px;
+
+}
+.arrow-left {
+    background-image: url('./Images/arrow-left.jpg');
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 5px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.arrow-right{
+    background-image: url('./Images/arrow-right.jpg');
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+    margin-top: 25px;
+    padding: 5px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+/*Our owning Products*/
+.text-centered1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding:   10px;
+    margin: 4px 2px;
+}
+.card-deck1 {
+    background-color: white;
+    width: 280px;
+
+}
+.flex-center-threeboxs {
+    display: flex;
+    justify-content: space-between;
 
 
 
+}
+.flex-container-col {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+justify-content: flex-start;
 
+}
+.flex-container-col2 {
+    display: flex;
+    flex-direction: column;
+    order: -1;
 
-
-
-
+}
+.Three-box-28 {
+    width:30%;
+    margin: 0 auto;
+    display: inline-block;
+}
+/*Row 1 boxes*/
+.logo1 {
+    background-image: url('./Images/logo1.jpg');
+    width: 130px;
+    height: 85px;
+    margin-left: 75px;
+    margin-top: 50px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.logo2 {
+    background-image: url('./Images/logo2.jpg');
+    width: 130px;
+    height: 85px;
+    margin-left: 75px;
+    margin-top: 50px;
+    padding: 5px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.logo3 {
+    background-image: url('./Images/logo3.jpg');
+    width: 130px;
+    height: 85px;
+    margin-left: 75px;
+    margin-top: 50px;
+    padding: 5px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.logo4 {
+    background-image: url('./Images/logo4.jpg');
+    width: 130px;
+    height: 85px;
+    margin-left: 75px;
+    margin-top: 50px;
+    padding: 5px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.logo5 {
+    background-image: url('./Images/logo5.jpg');
+    width: 130px;
+    height: 85px;
+    margin-left: 75px;
+    margin-top: 50px;
+    padding: 5px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.logo6 {
+    background-image: url('./Images/logo6.jpg');
+    width: 130px;
+    height: 85px;
+    margin-left: 75px;
+    margin-top: 50px;
+    padding: 5px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+/*After 6 boxes*/
+.small-left-picture {
+    background-image: url('./Images/small\ left.jpg');
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    padding: 2px;
+    margin-bottom: 120px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.large-middle-picture {
+    background-image: url('./Images/middle.jpg');
+    width: 175px;
+    height: 175px;
+    margin-left: 80px;
+    padding: 5px;
+    margin-top: 30px;
+    
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.medium-right-picture {
+    background-image: url('./Images/medium.jpg');
+    width: 135px;
+    height: 135px;
+    margin-left: 180px;
+    padding: 5px;
+    margin-bottom: 80px;
+    
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
 
 
 
