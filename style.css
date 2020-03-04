@@ -375,8 +375,8 @@ justify-content: flex-start;
     background-image: url('./Images/small\ left.jpg');
     width: 100px;
     height: 100px;
-    margin-left: 0px;
-    padding: 2px;
+    margin-left: 35px;
+    padding: 20px;
     margin-bottom: 120px;
     background-size: contain; 
     background-repeat: no-repeat;
@@ -404,6 +404,82 @@ justify-content: flex-start;
     background-repeat: no-repeat;
 }
 
+.middle-row-small-left-picture {
+    background-image: url('./Images/middle-left.jpg');
+    width: 80px;
+    height: 80px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-bottom: 80px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.Three-box-80 {
+    width:80%;
+    margin: 0 auto;}
+.Three-box-25 {
+    width:25%;}
+.Three-box-45 {
+    width:45%;
+    display: flex;
+    margin-left: 320px;
+    align-items: baseline;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.Three-box-10 {
+    width:8%;
+    margin: 0 auto;}
+.flex-mde{
+    display: flex;
+    justify-content: space-between ;
+    align-content: center;
+}
+.right-quote {
+    background-image: url('./Images/quote-leftL.jpg');
+    width: 40px;
+    height: 40px;
+    
+
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.quote-text{
+    text-align: center;
+    color: #333333;
+    font-family: poppins-regular;
+}
+.autor-name-text {
+    text-align: center;
+    font-family: poppins-Semibold;
+    color: black;
+    font-size: 13px;
+}
+.autor-designation {
+    text-align: center;
+    font-family: poppins-regular;
+    color: black;
+    font-size: 12px;
+}
+.left-quote {
+    background-image: url('./Images/quoteR.jpg');
+    width: 40px;
+    height: 40px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.middle-row-small-right-picture {
+    background-image: url('./Images/middle-right.jpg');
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
 
 
 
