@@ -521,17 +521,16 @@ h1 {
   
 }
 #blue-background {
+  background-color: lightblue;
   background-image: url("./Images/opacity.jpg");
-  background-color: red;
   align-self: center;
   width: 100%;
   height: 100%;
-  opacity: 0.9;
 }
 .formclr {
   width: 50%;
   height: auto;
-  background-color:red;
+  background-color: white;
   margin-left: 25%;
   margin-right: 25%;
   padding: 10% 10% 0% 10%;
@@ -552,4 +551,10 @@ h1 {
   
   z-index: +2;
   margin-top: -80px; 
+}
+.gray-value-text {
+
+  font-family: poppins-regular;
+  color:#C2C2C2;
+  font-size: 8px;
 }
